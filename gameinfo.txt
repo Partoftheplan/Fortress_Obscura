@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game	"Fortress Obscura"
+	game	"Team Fortress 2 1.0.1.8 Port"
 	gamelogo 1
 	type multiplayer_only
 	nomodels 1
@@ -12,7 +12,6 @@
 		"test_speakers"		1
 		"test_hardware"		1
 	}
-	supportsvr	1
 	FileSystem
 	{
 		SteamAppId		243750	// Source SDK Base 2013 Multiplayer
@@ -25,22 +24,24 @@
 			// folder.
 			// Note that this folder is scanned only when the game is booted.
 			game+mod			|gameinfo_path|custom/*
-
-			// Search game's files after any user customizations. This is also where any writes should go.
+			
+			// Now search loose files.  We'll set the directory containing the gameinfo.txt file
+			// as the first "mod" search path (after any user customizations).
+			// This is also where any writes should go.
 			game+game_write+mod+mod_write+default_write_path		|gameinfo_path|.
 
 			// Where the game's binaries are.
 			gamebin				|gameinfo_path|bin
-
+			
 			// Search shared VPK files.
-			game_lv				hl2/hl2_lv.vpk
 			game				|all_source_engine_paths|hl2/hl2_textures.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
 			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
 			game				|all_source_engine_paths|hl2/hl2_misc.vpk
+			
 			platform			|all_source_engine_paths|platform/platform_misc.vpk
 
-			// Mount in shared loose files.
+			// Lastly, mount in shared loose files.
 			game				|all_source_engine_paths|hl2
 			platform			|all_source_engine_paths|platform
 
