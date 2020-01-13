@@ -6,6 +6,6 @@
 	}
 	"cp_3badpit"
 	{
-		"viewed"		"1"
+		"viewed"		"2"
 	}
 }
