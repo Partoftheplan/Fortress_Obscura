@@ -118,6 +118,33 @@
 		"font"			"MenuMainTitle"
 		"fgcolor"		"255 255 255 255"
 	}
+		"teambuttongrn"
+	{
+		"ControlName"	"CTFTeamButton"
+		"fieldName"		"teambuttongrn"
+		"xpos"			"c200"
+		"ypos"			"101"
+		"zpos"			"3"
+		"wide"			"124"
+		"tall"			"310"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"5"
+		"labelText"		"&4"	[$WIN32]
+		"labelText"		""		[$X360]
+		"textAlignment"	"south-west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"paintborder"	"0"
+		"command"		"jointeam green"
+		"team"				"4"		// team red
+		"associated_model"	"reddoor"	
+		"hover"				"2.0"
+		"font"			"MenuMainTitle"
+		"fgcolor"		"255 255 255 255"
+	}
 
 	"teambutton2"
 	{

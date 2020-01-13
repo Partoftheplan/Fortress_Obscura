@@ -14,6 +14,7 @@
 	{
 		"team_Blue"	"Blue"
 		"team_Red"			"Red"
+		"team_Grn"			"Grn"
 		"team_Unassigned"	"Unassigned"
 		"team_Spectator"	"Spectator"
 		"alive_true"		"Alive"
