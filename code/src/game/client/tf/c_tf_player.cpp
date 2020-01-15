@@ -362,7 +362,7 @@ void C_TFRagdoll::CreateTFRagdoll()
 		}
 		if (m_iTeam == TF_TEAM_GRN)
 		{
-			m_nSkin = 3;
+			m_nSkin = 5;
 		}
 	}
 
@@ -2889,7 +2889,7 @@ int C_TFPlayer::GetSkin()
 		break;
 
 	case TF_TEAM_GRN:
-		nSkin = 2;
+		nSkin = 4;
 		break;
 
 	default:
