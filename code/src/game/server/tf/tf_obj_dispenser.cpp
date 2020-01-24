@@ -280,7 +280,7 @@ void CObjectDispenser::Precache()
 //-----------------------------------------------------------------------------
 void CObjectDispenser::DetonateObject( void )
 {
-	/*
+	
 	float flDamage = min( 100 + m_iAmmoMetal, 250 );
 
 	ExplosionCreate( 
@@ -293,7 +293,7 @@ void CObjectDispenser::DetonateObject( void )
 		0.0f,				//explosion force
 		this,				//inflictor
 		DMG_BLAST | DMG_HALF_FALLOFF);
-	*/
+	
 
 	BaseClass::DetonateObject();
 }

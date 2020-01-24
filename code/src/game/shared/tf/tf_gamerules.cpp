@@ -69,6 +69,8 @@ static int g_TauntCamAchievements[] =
 	0,		// TF_CLASS_PYRO,
 	0,		// TF_CLASS_SPY,
 	0,		// TF_CLASS_ENGINEER,
+	0,		// TF_CLASS_SQUIRE,
+
 
 	0,		// TF_CLASS_CIVILIAN,
 	0,		// TF_CLASS_COUNT_ALL,
@@ -136,7 +138,7 @@ static CViewVectors g_TFViewVectors(
 	Vector( 0, 0, 14 )		//VEC_DEAD_VIEWHEIGHT (m_vDeadViewHeight) dead view height
 );							
 
-Vector g_TFClassViewVectors[10] =
+Vector g_TFClassViewVectors[11] =
 {
 	Vector( 0, 0, 72 ),		// TF_CLASS_UNDEFINED
 
@@ -148,7 +150,8 @@ Vector g_TFClassViewVectors[10] =
 	Vector( 0, 0, 75 ),		// TF_CLASS_HEAVYWEAPONS,
 	Vector( 0, 0, 68 ),		// TF_CLASS_PYRO,
 	Vector( 0, 0, 75 ),		// TF_CLASS_SPY,
-	Vector( 0, 0, 68 ),		// TF_CLASS_ENGINEER,		// TF_LAST_NORMAL_CLASS
+	Vector( 0, 0, 68 ),		// TF_CLASS_ENGINEER,
+	Vector( 0, 0, 75 ),		// TF_CLASS_SQUIRE,		// TF_LAST_NORMAL_CLASS
 };
 
 const CViewVectors *CTFGameRules::GetViewVectors() const
@@ -3045,7 +3048,6 @@ int	CTFGameRules::GetCaptureValueForPlayer( CBasePlayer *pPlayer )
 
 	return BaseClass::GetCaptureValueForPlayer( pPlayer );
 }
-
 //-----------------------------------------------------------------------------
 // Purpose: 
 //-----------------------------------------------------------------------------

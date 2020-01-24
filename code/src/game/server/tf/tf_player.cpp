@@ -4694,11 +4694,15 @@ CTFTeam *CTFPlayer::GetOpposingTFTeam( void )
 	int iTeam = GetTeamNumber();
 	if ( iTeam == TF_TEAM_RED )
 	{
-		return TFTeamMgr()->GetTeam( TF_TEAM_BLUE );
+		return TFTeamMgr()->GetTeam( TF_TEAM_BLUE && TF_TEAM_GRN);
+	}
+	else if (iTeam == TF_TEAM_BLUE)
+	{
+		return TFTeamMgr()->GetTeam( TF_TEAM_RED && TF_TEAM_GRN);
 	}
 	else
 	{
-		return TFTeamMgr()->GetTeam( TF_TEAM_RED );
+	return TFTeamMgr()->GetTeam(TF_TEAM_RED && TF_TEAM_BLUE);
 	}
 }
 

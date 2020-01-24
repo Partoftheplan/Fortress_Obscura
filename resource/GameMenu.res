@@ -35,31 +35,26 @@
 	}
 	"8"
 	{
-		"label" "#GameUI_ReportBug"
-		"command" "engine bug"
-	}
-	"9"
-	{
 		"label" "#GameUI_GameMenu_Achievements"
 		"command" "OpenAchievementsDialog"
 	}
-	"10"
+	"9"
 	{
 		"label" "#GameUI_GameMenu_PlayerStats"
 		"command" "engine showstatsdlg"
 	}
-	"11"
+	"10"
 	{
 		"label" "#GameUI_Controller"
 		"command" "OpenControllerDialog"
 		"ConsoleOnly" "1"
 	}
-	"12"
+	"11"
 	{
 		"label" "#GameUI_GameMenu_Options"
 		"command" "OpenOptionsDialog"
 	}
-	"13"
+	"12"
 	{
 		"label" "#GameUI_GameMenu_Quit"
 		"command" "Quit"

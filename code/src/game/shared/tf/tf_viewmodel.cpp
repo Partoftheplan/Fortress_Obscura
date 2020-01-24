@@ -253,6 +253,9 @@ int CTFViewModel::GetSkin()
 			case TF_TEAM_BLUE:
 				nSkin = 1;
 				break;
+			case TF_TEAM_GRN:
+				nSkin = 2;
+				break;
 			}
 		}	
 	}

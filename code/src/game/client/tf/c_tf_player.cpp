@@ -362,7 +362,7 @@ void C_TFRagdoll::CreateTFRagdoll()
 		}
 		if (m_iTeam == TF_TEAM_GRN)
 		{
-			m_nSkin = 5;
+			m_nSkin = 4;
 		}
 	}
 

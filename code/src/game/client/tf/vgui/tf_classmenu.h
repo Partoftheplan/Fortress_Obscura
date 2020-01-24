@@ -271,23 +271,23 @@ private:
 public:
 	CTFClassMenu_Grn(IViewPort *pViewPort) : BaseClass(pViewPort)
 	{
-		m_pClassButtons[TF_CLASS_SCOUT] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "scout_grn", m_pClassInfoPanel);
-		m_pClassButtons[TF_CLASS_SOLDIER] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "soldier_grn", m_pClassInfoPanel);
-		m_pClassButtons[TF_CLASS_PYRO] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "pyro_grn", m_pClassInfoPanel);
-		m_pClassButtons[TF_CLASS_DEMOMAN] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "demoman_grn", m_pClassInfoPanel);
+		m_pClassButtons[TF_CLASS_SCOUT] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "scout_red", m_pClassInfoPanel);
+		m_pClassButtons[TF_CLASS_SOLDIER] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "soldier_red", m_pClassInfoPanel);
+		m_pClassButtons[TF_CLASS_PYRO] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "pyro_red", m_pClassInfoPanel);
+		m_pClassButtons[TF_CLASS_DEMOMAN] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "demoman_red", m_pClassInfoPanel);
 		m_pClassButtons[TF_CLASS_MEDIC] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "medic_red", m_pClassInfoPanel);
-		m_pClassButtons[TF_CLASS_HEAVYWEAPONS] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "heavyweapons_grn", m_pClassInfoPanel);
-		m_pClassButtons[TF_CLASS_SNIPER] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "sniper_grn", m_pClassInfoPanel);
-		m_pClassButtons[TF_CLASS_ENGINEER] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "engineer_grn", m_pClassInfoPanel);
-		m_pClassButtons[TF_CLASS_SPY] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "spy_grn", m_pClassInfoPanel);
-		m_pClassButtons[TF_CLASS_RANDOM] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "randompc_grn", m_pClassInfoPanel);
+		m_pClassButtons[TF_CLASS_HEAVYWEAPONS] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "heavyweapons_red", m_pClassInfoPanel);
+		m_pClassButtons[TF_CLASS_SNIPER] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "sniper_red", m_pClassInfoPanel);
+		m_pClassButtons[TF_CLASS_ENGINEER] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "engineer_red", m_pClassInfoPanel);
+		m_pClassButtons[TF_CLASS_SPY] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "spy_red", m_pClassInfoPanel);
+		m_pClassButtons[TF_CLASS_RANDOM] = new CImageMouseOverButton<CTFClassInfoPanel>(this, "randompc_red", m_pClassInfoPanel);
 	}
 
 	virtual void ApplySchemeSettings(IScheme *pScheme)
 	{
 		BaseClass::ApplySchemeSettings(pScheme);
 
-		LoadControlSettings("Resource/UI/Classmenu_grn.res");
+		LoadControlSettings("Resource/UI/Classmenu_red.res");
 
 		for (int i = 0; i < GetChildCount(); i++)
 		{

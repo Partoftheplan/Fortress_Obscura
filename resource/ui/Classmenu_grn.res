@@ -1,4 +1,4 @@
-"Resource/UI/ClassMenu_grn.res"
+"Resource/UI/ClassMenu_red.res"
 {
 	"class"
 	{
@@ -33,7 +33,7 @@
 	"randompc_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"randompc_grn"
+		"fieldName"			"randompc_red"
 		"xpos"				"c250"
 		"xpos_lodef"				"c217"
 		"xpos_hidef"				"c238"
@@ -55,7 +55,7 @@
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_random_grn"
+		"activeimage"		"class_sel_sm_random_red"
 		"inactiveimage"		"class_sel_sm_random_inactive"
 	}
 		
@@ -88,7 +88,7 @@
 	"scout_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"scout_grn"
+		"fieldName"			"scout_red"
 		"xpos"				"c-300"
 		"xpos_hidef"				"c-290"
 		"xpos_lodef"		"c-265"
@@ -111,13 +111,13 @@
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_scout_grn"
+		"activeimage"		"class_sel_sm_scout_red"
 		"inactiveimage"		"class_sel_sm_scout_inactive"
 	}
 	"soldier_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"soldier_grn"
+		"fieldName"			"soldier_red"
 		"xpos"				"c-250"
 		"xpos_hidef"				"c-244"
 		"xpos_lodef"		"c-225"
@@ -140,13 +140,13 @@
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_soldier_grn"
+		"activeimage"		"class_sel_sm_soldier_red"
 		"inactiveimage"		"class_sel_sm_soldier_inactive"
 	}
 	"pyro_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"pyro_grn"
+		"fieldName"			"pyro_red"
 		"xpos"				"c-200"
 		"xpos_hidef"				"c-194"
 		"xpos_lodef"		"c-180"
@@ -169,7 +169,7 @@
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_pyro_grn"
+		"activeimage"		"class_sel_sm_pyro_red"
 		"inactiveimage"		"class_sel_sm_pyro_inactive"
 	}
 	
@@ -202,7 +202,7 @@
 	"demoman_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"demoman_grn"
+		"fieldName"			"demoman_red"
 		"xpos"				"c-110"
 		"xpos_lodef"		"c-100"
 		"ypos"				"-5"
@@ -224,13 +224,13 @@
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_demo_grn"
+		"activeimage"		"class_sel_sm_demo_red"
 		"inactiveimage"		"class_sel_sm_demo_inactive"
 	}	
 	"heavyweapons_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"heavyweapons_grn"
+		"fieldName"			"heavyweapons_red"
 		"xpos"				"c-60"
 		"xpos_lodef"		"c-55"
 		"ypos"				"-5"
@@ -252,13 +252,13 @@
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_heavy_grn"
+		"activeimage"		"class_sel_sm_heavy_red"
 		"inactiveimage"		"class_sel_sm_heavy_inactive"
 	}
 	"engineer_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"engineer_grn"
+		"fieldName"			"engineer_red"
 		"xpos"				"c-10"
 		"ypos"				"-5"
 		"ypos_lodef"				"9"
@@ -279,7 +279,7 @@
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_engineer_grn"
+		"activeimage"		"class_sel_sm_engineer_red"
 		"inactiveimage"		"class_sel_sm_engineer_inactive"
 	}
 	
@@ -312,7 +312,7 @@
 	"medic_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"medic_grn"
+		"fieldName"			"medic_red"
 		"xpos"				"c78"
 		"xpos_hidef"				"c70"
 		"xpos_lodef"		"c65"
@@ -335,13 +335,13 @@
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_medic_grn"
+		"activeimage"		"class_sel_sm_medic_red"
 		"inactiveimage"		"class_sel_sm_medic_inactive"
 	}
 	"sniper_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"sniper_grn"
+		"fieldName"			"sniper_red"
 		"xpos"				"c128"
 		"xpos_hidef"				"c120"
 		"xpos_lodef"		"c105"
@@ -364,13 +364,13 @@
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_sniper_grn"
+		"activeimage"		"class_sel_sm_sniper_red"
 		"inactiveimage"		"class_sel_sm_sniper_inactive"
 	}
 	"spy_blue"
 	{
 		"ControlName"		"ImageButton"
-		"fieldName"			"spy_grn"
+		"fieldName"			"spy_red"
 		"xpos"				"c178"
 		"xpos_hidef"				"c170"
 		"xpos_lodef"		"c145"
@@ -393,7 +393,7 @@
 		"font"				"MenuKeys"
 		"fgcolor"			"TanDark"
 		"scaleImage"		"1"
-		"activeimage"		"class_sel_sm_spy_grn"
+		"activeimage"		"class_sel_sm_spy_red"
 		"inactiveimage"		"class_sel_sm_spy_inactive"
 	}	
 

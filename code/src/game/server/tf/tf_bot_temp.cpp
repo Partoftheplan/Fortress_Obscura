@@ -326,8 +326,11 @@ void Bot_Think( CTFPlayer *pBot )
 		case TF_TEAM_BLUE:
 			pszTeam = "blue";
 			break;
+		case TF_TEAM_GRN:
+			pszTeam = "green";
+			break;
 		case TEAM_SPECTATOR:
-			pszTeam = "spectator";
+			pszTeam = "green";
 			break;
 		default:
 			Assert( false );
