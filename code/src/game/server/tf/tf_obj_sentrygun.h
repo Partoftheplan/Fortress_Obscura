@@ -48,6 +48,7 @@ public:
 	virtual void	SetModel( const char *pModel );
 
 	virtual bool	StartBuilding( CBaseEntity *pBuilder );
+	virtual void	DetonateObject(void);
 	virtual void	StartPlacement( CTFPlayer *pPlayer );
 
 	// Engineer hit me with a wrench

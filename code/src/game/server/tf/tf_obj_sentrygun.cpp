@@ -11,6 +11,7 @@
 #include "tf_player.h"
 #include "tf_team.h"
 #include "world.h"
+#include "explode.h"
 #include "tf_projectile_rocket.h"
 #include "te_effect_dispatch.h"
 #include "tf_gamerules.h"
@@ -367,6 +368,29 @@ bool CObjectSentrygun::CanBeUpgraded( CTFPlayer *pPlayer )
 }
 
 #define SENTRY_UPGRADE_DURATION	1.5f
+
+//-----------------------------------------------------------------------------
+// If detonated, do some damage
+//-----------------------------------------------------------------------------
+void CObjectSentrygun::DetonateObject(void)
+{
+
+	float flDamage = min((31 * m_iUpgradeLevel) + 100, 250);
+
+	ExplosionCreate(
+		GetAbsOrigin(),
+		GetAbsAngles(),
+		GetBuilder(),
+		flDamage,	//magnitude
+		flDamage,		//radius
+		0,
+		0.0f,				//explosion force
+		this,				//inflictor
+		DMG_BLAST | DMG_HALF_FALLOFF);
+
+
+	BaseClass::DetonateObject();
+}
 
 //-----------------------------------------------------------------------------
 // Raises the Sentrygun one level

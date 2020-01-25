@@ -231,6 +231,29 @@ bool CObjectTeleporter::StartBuilding( CBaseEntity *pBuilder )
 }
 
 //-----------------------------------------------------------------------------
+// If detonated, do some damage
+//-----------------------------------------------------------------------------
+void CObjectTeleporter::DetonateObject(void)
+{
+
+	float flDamage = 100;
+
+	ExplosionCreate(
+		GetAbsOrigin(),
+		GetAbsAngles(),
+		GetBuilder(),
+		flDamage,	//magnitude
+		flDamage,		//radius
+		0,
+		0.0f,				//explosion force
+		this,				//inflictor
+		DMG_BLAST | DMG_HALF_FALLOFF);
+
+
+	BaseClass::DetonateObject();
+}
+
+//-----------------------------------------------------------------------------
 // 
 //-----------------------------------------------------------------------------
 bool CObjectTeleporter::IsPlacementPosValid( void )

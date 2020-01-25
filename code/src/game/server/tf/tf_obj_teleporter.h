@@ -29,6 +29,7 @@ public:
 
 	virtual void	Spawn();
 	virtual void	Precache();
+	virtual void	DetonateObject(void);
 	virtual bool	StartBuilding( CBaseEntity *pBuilder );
 	virtual void	OnGoActive( void );
 	virtual int		DrawDebugTextOverlays(void) ;

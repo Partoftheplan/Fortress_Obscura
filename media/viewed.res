@@ -6,7 +6,7 @@
 	}
 	"cp_3badpit"
 	{
-		"viewed"		"71"
+		"viewed"		"95"
 	}
 	"koth_3way"
 	{
@@ -14,13 +14,17 @@
 	}
 	"cp_gravelpit"
 	{
-		"viewed"		"1"
+		"viewed"		"3"
 	}
 	"vehicle_test"
 	{
 		"viewed"		"7"
 	}
 	"cp_shaftfall_a1first"
+	{
+		"viewed"		"1"
+	}
+	"team_classic_menu"
 	{
 		"viewed"		"1"
 	}
