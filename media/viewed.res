@@ -6,7 +6,7 @@
 	}
 	"cp_3badpit"
 	{
-		"viewed"		"95"
+		"viewed"		"102"
 	}
 	"koth_3way"
 	{
